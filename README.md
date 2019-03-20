@@ -1,3 +1,3 @@
-# Reshout
+# Dragonstack
 
-A networking app that reminds you to say hello to friends and connections.
+Following along with Full-Stack Web Development | Node, SQL, React and more...
