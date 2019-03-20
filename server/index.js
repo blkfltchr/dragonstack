@@ -1,21 +1,22 @@
-const Contact = require('./contact');
+const Dragon = require('./dragon');
 
-const Kieran = new Contact({
-    dateAdded: new Date(),
-    firstName: 'Kieran'
-});
-const Nick = new Contact({
-    dateAdded: new Date(),
-    firstName: 'Nick'
+const fooey = new Dragon({
+ birthdate: new Date(),
+ nickname: 'fooey'
 });
 
-const Marco = new Contact();
+const baloo = new Dragon({
+ nickname: 'baloo',
+ birthdate: new Date()
+});
+
+const mimar = new Dragon();
 
 setTimeout(() => {
-    const Patrick = new Contact();
-    console.log('Patrick', Patrick);
+ const gooby = new Dragon();
+ console.log('gooby', gooby);
 }, 3000);
 
-console.log('Kieran', Kieran);
-console.log('Nick', Nick);
-console.log('Marco', Marco);
+console.log('fooey', fooey);
+console.log('baloo', baloo);
+console.log('mimar', mimar);
